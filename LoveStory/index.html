@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша история</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="hero">
+
+    <div class="overlay"></div>
+
+    <video class="page_video" muted autoplay loop id="winter2">
+            <source src="video/VideoMouse/winter2.MP4" type="video/mp4"/>
+            <script>
+                const video = document.getElementById("winter2");
+                video.playbackRate = 0.6;
+            </script>
+        </video>    
+
+    <div class="hero-content">
+
+        <p class="subtitle">
+            Для самой особенной девушки
+        </p>
+
+        <h1>
+            НАША ИСТОРИЯ
+        </h1>
+
+        <p class="description">
+            Пять лет, которые изменили мою жизнь.
+        </p>
+
+        <a href="#story" class="start-btn">
+            Начать ↓
+        </a>
+
+    </div>
+
+</header>
+
+<section id="story" class="intro">
+
+    <div class="container">
+
+        <h2>
+            Начало конца эры джинс скини
+        </h2>
+
+        <p>
+            Три с половиной года я шел за человеком который сам того не зная
+            стал моим молнцем и маяком.
+
+            По прошествию лет у нас появилась история и сейчас я ее расскажу. 
+        </p>
+    </div>
+    <div>
+         <img
+        src="images/TataMouse/IMG_1680.JPG"
+        alt="Love Story"
+        class="hero-image">
+    </div>
+</section>
+<section class="moments-section">
+    <h2 class="moments-title">НАШИ МОМЕНТЫ</h2>
+    <div class="carousel-wrapper">
+        <div class="carousel-container" id="carousel">
+            <!-- Слайд 1 -->
+            <div class="carousel-slide">
+                <img src="images/TataMouse/IMG_1711.jpg" alt="Наша первая встреча" class="carousel-image">
+                <div class="slide-caption">
+                    <span class="timeline-date">Июнь 2021</span>
+                    <span class="timeline-event">Начало чего-то большего</span>
+                </div>
+            </div>
+            <!-- Слайд 2 -->
+            <div class="carousel-slide">
+                <img src="images/TataMouse/IMG_1718.jpg" alt="Рассвет у озера" class="carousel-image">
+                <div class="slide-caption">
+                    <span class="timeline-date">Август 2025</span>
+                    <span class="timeline-event">Рассвет у озера</span>
+                </div>
+            </div>
+            <!-- Слайд 3 -->
+            <div class="carousel-slide">
+                <img src="images/TataMouse/IMG_1662.JPG" alt="Первое путешествие" class="carousel-image">
+                <div class="slide-caption">
+                    <span class="timeline-date">Июнь 2026</span>
+                    <span class="timeline-event">Страстное свидание</span>
+                </div>
+            </div>
+            <!-- Слайд 4 -->
+            <div class="carousel-slide">
+                <img src="images/TataMouse/IMG_1720.jpg" alt="Лучшее лето" class="carousel-image">
+                <div class="slide-caption">
+                    <span class="timeline-date">Июль 2025</span>
+                    <span class="timeline-event">Лучшее лето</span>
+                </div>
+            </div>
+            <!-- Слайд 5 -->
+            <div class="carousel-slide">
+                <img src="images/TataMouse/IMG_0172 2.JPG" alt="Ты и я" class="carousel-image">
+                <div class="slide-caption">
+                    <span class="timeline-date">Апрель 2026</span>
+                    <span class="timeline-event">Ты и я</span>
+                </div>
+            </div>
+        </div>
+        <!-- Кнопки -->
+        <button class="carousel-btn prev-btn" id="prevBtn">‹</button>
+        <button class="carousel-btn next-btn" id="nextBtn">›</button>
+    </div>
+    <!-- Точечки -->
+    
+</section>
+<section class="history">
+   <div>
+    <h2 class="History_headline">
+        Явление первое
+    </h2>
+    <p class="History_text">
+        «Я помню чудное мгновенье: передо мной явилась ты, как мимолетное виденье, как гений чистой красоты».<br>
+    </p>    
+        <p>Эти строки я вспомнил в ту самую секунду, когда впервые увидел тебя. 
+Тогда, еще не зная твоего голоса, твоего смеха, твоих привычек, я уже понял: это не просто случайность. 
+Это — начало новой главы. Я еще не знал тебя, но сердце уже все решило: <strong style="color: #7a1f1f;">дальше — по-другому</strong>.
+Дальше — ярче, теплее и значительнее. Спасибо, что явилась мне не только как виденье, но и как сама жизнь.
+        </p>
+   </div>
+   <div>    
+    <img class="history_image"
+        src="images/TataMouse/IMG_1679.JPG"
+        />
+    </div>
+</section>
+<script src="./JavaScript"></script>
+<section class="hard">
+    <div>
+    <h2 class="title-hard">Наши трудности</h2>
+    <p>
+        На нашем пути встречались тупики и развилки. Было больно, было страшно, и иногда казалось, что лучше свернуть. 
+        Можно долго рассуждать о том, как было бы проще без этих испытаний, и в чем-то это чистая правда. 
+        Но я смотрю иначе: каждый камень на нашей дороге — это шаг, который мы сделали вместе. 
+        Мне нравится, что мы не сбежали от трудностей, а прожили их. Плечом к плечу. И это дорогого стоит
+
+    </p>
+    </div>
+</section>
+</body>
+</html>
